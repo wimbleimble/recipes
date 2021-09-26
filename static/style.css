@@ -2,6 +2,11 @@ html, body
 {
 	margin: 0;
 	padding: 0;
+	min-height: 100vh;
+	min-width: 100vw;
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 div
@@ -9,13 +14,39 @@ div
 	display: flex;
 }
 
+main
+{
+	display: flex;
+	flex-grow: 1;
+}
+
 nav
 {
-	width: 15em;
+	min-width: 12em;
+	background-color: pink;
 }
 
 header
 {
 	display: flex;
 	justify-content: center;
+	background-color: plum;
+}
+
+.centered
+{
+	justify-content: center;
+}
+
+article
+{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+@media screen and (max-width: 600px)
+{
+	nav
+	{
+		display: none;
+	}
 }

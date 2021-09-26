@@ -27,7 +27,6 @@ app.get("/", async (req, res) =>
 
 app.get("/recipes/:id", (req, res) =>
 {
-	console.log(req.params.id)
 	fs.readFile(`views/recipes/${req.params.id}`, 'utf-8', async (err, data) =>
 	{
 		if (err)
