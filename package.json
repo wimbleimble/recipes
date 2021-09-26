@@ -1,0 +1,24 @@
+{
+  "name": "recipes",
+  "version": "0.0.1",
+  "description": "A recipe book for goth moms (among others).",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wimbleimble/recipes.git"
+  },
+  "author": "K8 Thomas",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wimbleimble/recipes/issues"
+  },
+  "homepage": "https://github.com/wimbleimble/recipes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "markdown-it": "^12.2.0"
+  }
+}

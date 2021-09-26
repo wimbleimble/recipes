@@ -1,0 +1,11 @@
+<header>
+	<h1>Hathaway's Recipes</h1>
+</header>
+<main>
+	<ul>
+		{{#each recipeIndex}}
+		<li><a href="/recipes/{{this.file}}">{{this.name}}</a></li>
+		{{/each}}
+	</ul>
+
+</main>
